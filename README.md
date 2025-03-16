@@ -20,7 +20,21 @@ By providing risk factors such as credit score, age, income, claims history, and
 2. **Dynamic Slider and Input Fields** to adjust policy applicant details  
 3. **Interactive SHAP Bar Chart** showing feature contributions toward approval or rejection  
 4. **Automated Explanation Letter** with the option to download as a PDF or text  
-5. **Backend using RandomForestClassifier** and synthetic training data for demonstration  
+5. **Backend using RandomForestClassifier** and synthetic training data for demonstration
+
+```bash
+               Credit Score > 650? 
+               /          \
+           Yes              No
+           |                  |
+Income > 30K?          Coverage Amount > 500K? 
+   |                      |
+  Yes                    No 
+   |                       |
+Approved                 Rejected
+```
+A decision tree works by making a series of yes/no decisions to reach an outcome. It starts by checking if the credit score is greater than 650. If yes, it then checks if the income is above 30K — if true, the policy is approved; if false, it is rejected. If the credit score is below 650, the model checks if the coverage amount exceeds 500K — if true, the policy is rejected; if false, it is approved. This simple structure helps the model make fast, consistent decisions based on financial stability and risk exposure.
+
 
 ---
 
