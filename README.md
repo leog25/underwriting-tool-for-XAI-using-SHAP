@@ -1,8 +1,10 @@
 # Underwriting Explainability Tool
 
-All Policy holders deserve to understand why their policies were approved or not. I understand that whether a policy is approved or not, represents the livelihood of someone, and with the innovation in technology and the onset of even underwriting assistants, we have the opportunity to ensure transparency to policy holders and clients. 
+All Policy holders deserve to understand why their policies were approved or not. I understand that whether a policy is approved or not, represents the livelihood of someone, and with the innovation in technology and the onset of even underwriting AI assistants, we have the opportunity to ensure transparency to policy holders and clients. 
 
-This I built this tool to serve to to provide insight to clients and even underwriters, in addition to exploring the use of Explainable AIs (XAIs). This prohect is a Streamlit application designed to help underwriters and policy holders understand and explain policy decisions. It uses:
+![alt text](2.png)
+
+Thus, I built this tool to serve to provide insight to clients and even underwriters, in addition to exploring the use of Explainable AIs (XAIs). This project is a Streamlit application designed to help underwriters and policy holders understand and explain policy decisions. It uses:
 
 - **Machine Learning (Random Forest)** for basic classification  
 - **SHAP (SHapley Additive exPlanations)** to interpret model predictions  
