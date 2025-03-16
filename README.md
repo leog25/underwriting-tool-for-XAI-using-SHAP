@@ -22,6 +22,8 @@ By providing risk factors such as credit score, age, income, claims history, and
 4. **Automated Explanation Letter** with the option to download as a PDF or text  
 5. **Backend using RandomForestClassifier** and synthetic training data for demonstration
 
+---
+## Random Forest Model Decision Trees
 ```bash
                Credit Score > 650? 
                /          \
