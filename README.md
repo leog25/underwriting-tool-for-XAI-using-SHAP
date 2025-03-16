@@ -32,7 +32,6 @@ A decision tree works by making a series of yes/no decisions to reach an outcome
 
 ---
 ## SHAP Values
----
 SHAP values explain how much each input feature (like credit score, income, and coverage amount) influenced the model’s decision to approve or reject a policy. A positive SHAP value means the feature increased the likelihood of approval, while a negative SHAP value means it decreased the likelihood of approval. For example, a high credit score and high income would generate positive SHAP values, pushing the decision toward approval, while a high coverage amount or low income might generate negative SHAP values, pushing the decision toward rejection. SHAP values help break down the decision-making process, providing transparency into why the model reached a particular outcome.
 ---
 
