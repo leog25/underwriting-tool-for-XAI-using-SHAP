@@ -128,4 +128,4 @@ if analyze_button:
 
 
 st.markdown("---")
-st.markdown("*Created by Leo Gao in hope of aiding the future of underwriters at BMO Insurance*")
+st.markdown("*Created by Leo G in hopes of aiding the future of AI poweredunderwriters in Insurance*")
