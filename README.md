@@ -16,16 +16,6 @@ Thus, I built this tool to serve to provide insight to clients and even underwri
 By providing risk factors such as credit score, age, income, claims history, and requested coverage, the app visualizes how these inputs affect policy approval or rejection and generates an explanation letter.
 
 ---
-
-## Features
-
-1. **Intuitive Web UI** using [Streamlit](https://streamlit.io/)  
-2. **Dynamic Slider and Input Fields** to adjust policy applicant details  
-3. **Interactive SHAP Bar Chart** showing feature contributions toward approval or rejection  
-4. **Automated Explanation Letter** with the option to download as a PDF or text  
-5. **Backend using RandomForestClassifier** and synthetic training data for demonstration
-
----
 ## Random Forest Model Decision Trees
 ```bash
                Credit Score > 650? 
